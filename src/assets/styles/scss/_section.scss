@@ -1,0 +1,133 @@
+
+// Section Padding - Change with your need.
+.section-padding {
+    padding: 120px 0px;
+
+    @media (max-width: 991px) {
+        padding: 100px 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 80px 0px;
+    }
+}
+
+.block-contents {
+    position: relative;
+    
+    .section-title {
+        margin-bottom: 50px;
+
+        @media (max-width: 991px) {
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            margin-top: -14px;
+            font-size: 60px;
+            line-height: 112%;
+
+            @media (max-width: 1200px) {
+                font-size: 50px;
+            }
+
+            @media (max-width: 991px) {
+                font-size: 40px;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 36px;
+                margin-top: -6px;
+            }
+
+            @media (max-width: 485px) {
+                font-size: 30px;
+            }
+        }
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+}
+.child_third_card{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 40%;
+}
+.content_black_height{
+height: 500px;
+
+}
+.content_black_height_sec4{
+    height: 380px;
+}
+.explore_img{
+    margin-top: 40px;
+}
+.explore_title{
+padding-top: 70px;
+}
+.text_center{
+    text-align: center;
+}
+.secthird_col_left{
+    margin-left: 0 !important;
+    padding-top: 50px;
+}
+.content_black_setting{
+margin-left: auto;
+max-width: 1240px;
+margin-right: auto;
+}
+.child_third_section{
+    display: flex;
+    align-items: center;
+}
+.section-bg {
+    background-color: $section-bg;
+}
+.sec_bg{
+background-color: #1A1AFF;
+}
+.secthird_img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    width: auto;
+    height: 90%;
+    top: 125px;
+    left: auto;
+    max-height: 375px;
+}
+
+.section-bg-2 {
+    background-color: rgba($color: #080F1E, $alpha: 0.02);
+}
+
+.theme-bg {
+    background: $theme-color;
+
+    h1, h2, h4, h5, h6, a {
+        color: #fff;
+    }
+
+    p, span {
+        color: rgba($color: #fff, $alpha: 0.70);
+    }
+}
+
+.section-bg-3 {
+    background-color: rgba($color: #080F1E, $alpha: 0.02);
+}
+
+.section-black {
+    background-color: $section-bg-black;
+}
